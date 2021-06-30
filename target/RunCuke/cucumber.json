@@ -1,0 +1,264 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4015373400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should able to arrange products in \"Name: A to Z\" alphabetical order",
+        "description": "",
+        "id": "computer-test;user-should-able-to-arrange-products-in-\"name:-a-to-z\"-alphabetical-order",
+        "after": [
+          {
+            "result": {
+              "duration": 761487000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 141463100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuStepdefs.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 243526800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I mouse hover on computer top tab",
+            "match": {
+              "location": "ComputerStepdefs.iMouseHoverOnComputerTopTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3271398100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I mouse hover and click on \"Desktops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desktops",
+                  "offset": 28
+                }
+              ],
+              "location": "ComputerStepdefs.iMouseHoverAndClickOn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1166908900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select sort by position \"Name: A to Z\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name: A to Z",
+                  "offset": 27
+                }
+              ],
+              "location": "ComputerStepdefs.iSelectSortByPosition(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1176698500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I add build your own computer to cart",
+            "match": {
+              "location": "ComputerStepdefs.iAddBuildYourOwnComputerToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2418901100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should be able to verify \"Build your own computer\" page title text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Build your own computer",
+                  "offset": 28
+                }
+              ],
+              "location": "ComputerStepdefs.iShouldBeAbleToVerifyPageTitleText(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1152149500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I select processor \"2.2 GHz Intel Pentium Dual-Core E2200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.2 GHz Intel Pentium Dual-Core E2200",
+                  "offset": 20
+                }
+              ],
+              "location": "ComputerStepdefs.iSelectProcessor(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1143126600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I select RAM \"8GB [+$60.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8GB [+$60.00]",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerStepdefs.iSelectRAM(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1088910300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click radio button to select HDD",
+            "match": {
+              "location": "ComputerStepdefs.iClickRadioButtonToSelectHDD()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1087163900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click radio button to select OS",
+            "match": {
+              "location": "ComputerStepdefs.iClickRadioButtonToSelectOS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click check box to select Software",
+            "match": {
+              "location": "ComputerStepdefs.iClickCheckBoxToSelectSoftware()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1048432600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should be able to verify total price of \"$1,470.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$1,470.00",
+                  "offset": 43
+                }
+              ],
+              "location": "ComputerStepdefs.iShouldBeAbleToVerifyTotalPriceOf(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1096194600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should be able to add the computer product to cart",
+            "match": {
+              "location": "ComputerStepdefs.iShouldBeAbleToAddTheComputerProductToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1044083800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should be able to see green bar message \"The product has been added to your shopping cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The product has been added to your shopping cart",
+                  "offset": 43
+                }
+              ],
+              "location": "ComputerStepdefs.iShouldBeAbleToSeeGreenBarMessage(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Sanity"
+          },
+          {
+            "line": 13,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Computer Test",
+    "description": "\r\nAs a user I want to shop computer products successfully",
+    "id": "computer-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featureFile/computer.feature"
+  }
+]
